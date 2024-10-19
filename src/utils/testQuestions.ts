@@ -1,13 +1,7 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-
-
-
-
 export const QuestionList = [ 
     {
     id: 1,
-    question:"[Name] It's the start of a new year. You want to do it all: balance work, school, and friends all without crumbling down. You finally got your first job at Dunkin! What do you plan to do with your first check?",
+    question:"It's the start of a new year. You want to do it all: balance work, school, and friends all without crumbling down. You finally got your first job at Dunkin! What do you plan to do with your first check?",
     type: "multiple-choice",
     choices: [
         {value: "Save all of it of course! That's what I'll do with every check ", popup: "That's great! But no. This isn't sustainable life costs money. You should allocate some income to your wants and needs"},
@@ -20,7 +14,7 @@ export const QuestionList = [
 
     {
     id: 2,
-    question:"With this new job finally opened up a savings account! If you deposit $1,000 into a savings account freshman year with an annual interest rate of 5% (anual compound) how much will you have after senior year (4 years)?",
+    question:"With this new job you finally opened up a savings account! If you deposit $1,000 into a savings account freshman year with an annual interest rate of 5% (anual compound) how much will you have after senior year (4 years)?",
     type: "multiple-choice",
     choices: [
         {value: "1,150.00", popup: "Hey not that little!"},
@@ -65,7 +59,7 @@ export const QuestionList = [
 
 {
     id: 5,
-    question:"Yay! You got a raise now you make $2,400. Time to pay off the dept you owe to Jane. She let you borrow $500 for a new PS5.  If you decide to pay her back $125 each month with %5 interest, how long will it take you to fully repay the debt?",
+    question:"Yay! You got a raise now you make $2,400. Time to pay off the dept you owe to Jerry. She let you borrow $500 for a new PS5.  If you decide to pay her back $125 each month with %5 interest, how long will it take you to fully repay the debt?",
     type: "multiple-choice",
     choices: [
         {value: "2 months", popup: "Record time! But no it wouldn't take only 2 months, even without interest 500/125= 4 months"},
@@ -83,7 +77,7 @@ export const QuestionList = [
         {value: "500", popup: "yes"},
         {value: "1,000", popup: "That's a bit high! Remember, you only pay the deductible amount."},
         {value: "1,500", popup: " Not quite! The deductible isn't the subtracted amount"},
-        {value: "2,000", popup: "There wass no change! Account for deductible"}
+        {value: "2,000", popup: "There was no change! Account for deductible"}
         ],
     answer: [0]
         },       
